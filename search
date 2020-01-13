@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>    
+
+  <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>      
+
+   <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>      
+
+   <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+
+ <html class="no-js"> <!--<![endif]-->
+  
+
+  <head>
+        <meta charset="utf-8">
+      
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      
+
+  <title></title>
+        <meta name="description" content="">
+    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+    <link rel="stylesheet" href="css/style.css">
+  
+
+  </head>
+    <body>
+        <!--[if lt IE 7]>
+      
+
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    
+
+    <header>
+                <div class="header">
+               
+
+         <h1>Compară alte doua cărți</h1>
+               
+
+     </div>
+        
+                        <div class="search">
+                            <form method="GET">
+                                <div class="search-inputs">
+ 
+
+         <input type="search" placeholder="Prima Carte..." class="search-input" id="search-field-left"> <!-- Aici cauti primul produs -->
+      
+
+
+         <input type="search" placeholder="A Doua Carte..." class="search-input" id="search-field-right"> <!-- Aici cauti al doilea produs -->
+  
+
+              </div>
+                                <a style="text-decoration: none; cursor: pointer;" href="search-page.html"><button id="submit-search">Caută</button></a>
+  
+
+
+                 </form>
+                        </div>
+                    </div>
+        </header>
+   
+
+ <div class="item-container">
+        <div class="search-item">
+            <h3>Numele cartii</h3>
+         
+
+   <strong><p>Statistica 1</p></strong> : <span>rezultat</span>
+            <strong><p>Statistica 2</p></strong> : <span>rezultat</span>
+      
+
+      <strong><p>Statistica 3</p></strong> : <span>rezultat</span>
+            <strong><p>Statistica 4</p></strong> : <span>rezultat</span>
+      
+
+  </div>
+
+        <h1>versus</h1>
+
+        <div class="search-item">
+       
+
+         <h3>Numele cartii</h3>
+                <strong><p>Statistica 1</p></strong> : <span>rezultat</span>
+          
+
+
+      <strong><p>Statistica 2</p></strong> : <span>rezultat</span>
+                <strong><p>Statistica 3</p></strong> : <span>rezultat</span>
+          
+
+      <strong><p>Statistica 4</p></strong> : <span>rezultat</span>
+            </div>
+        </div>
+        <script src="script/script.js" async defer></script>
+    </body>
+</html>
