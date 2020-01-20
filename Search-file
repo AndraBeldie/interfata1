@@ -1,0 +1,13 @@
+.item-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 50px;
+}
+
+.search-item {
+    border: 1px solid #000;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+}
