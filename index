@@ -1,80 +1,79 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>     
+<html>
+<head>
+<title>Amazon Comparation</title>
+<link href=style.css rel="stylesheet" type="text/css">
 
- <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>        
-
- <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>      
-
-   <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-
- <html class="no-js"> <!--<![endif]-->
-   
-
- <head>
+</head>
+<body>
+<!--[if lt IE 7]>
       
 
-  <meta charset="utf-8">
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
     
+<header>
+<div class="header">
+<h1>Compară alte doua cărți</h1>
+<div class="logo">
+<img src = "logo.png"
+</div>
+</div>
+        
+                        <div class="search">
+                            <form method="GET">
+                                <div class="search-inputs">
+ 
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
-
-    <title>Comparison</title>
+         <input type="search" placeholder="Prima Carte..." class="search-input" id="search-field-left"> <!-- Aici cauti primul produs -->
       
 
-  <meta name="description" content="Aplicatie de comparatie produse Amazon">
-    
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-
-    <link rel="stylesheet" href="css/style.css">
+         <input type="search" placeholder="A Doua Carte..." class="search-input" id="search-field-right"> <!-- Aici cauti al doilea produs -->
   
 
-  </head>
-    <body>
-        <!--[if lt IE 7]>
-       
+              </div>
+                                <a style="text-decoration: none; cursor: pointer;" href="search-page.html"><button id="submit-search">Caută</button></a>
+  
 
-     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+
+                 </form>
+                        </div>
+                    </div>
+        </header>
    
 
-     
-            <div class="header">
-                <h1>Compară cărți</h1>
+ <div class="item-container">
+        <div class="search-item">
+            <h3>Numele cartii</h3>
          
 
-   </div>
-
-                <div class="search">
-                    <form>
-                        <div class="search-inputs">
-             
-
-               <input type="search" placeholder="Prima Carte..." class="search-input" id="search-field-left"> <!-- Aici cauti primul produs -->
-             
-
-
-               
-                            <input type="search" placeholder="A Doua Carte..." class="search-input" id="search-field-right"> <!-- Aici cauti al doilea produs -->
+   <strong><p>Statistica 1</p></strong> : <span>rezultat</span>
+            <strong><p>Statistica 2</p></strong> : <span>rezultat</span>
       
 
+      <strong><p>Statistica 3</p></strong> : <span>rezultat</span>
+            <strong><p>Statistica 4</p></strong> : <span>rezultat</span>
+      
 
-                  </div>
-                        <a style="text-decoration: none; cursor: pointer;" href="search-page.html"><button id="submit-search">Caută</button></a>
-            
+  </div>
 
-        </form>
-                </div>
-            </div>
-             
+        <h1>versus</h1>
+
+        <div class="search-item">
+       
+
+         <h3>Numele cartii</h3>
+                <strong><p>Statistica 1</p></strong> : <span>rezultat</span>
+          
+
+
+      <strong><p>Statistica 2</p></strong> : <span>rezultat</span>
+                <strong><p>Statistica 3</p></strong> : <span>rezultat</span>
+          
+        </div>
         <script src="script/script.js" async defer></script>
     </body>
 </html>
 
 
-
+</html>
